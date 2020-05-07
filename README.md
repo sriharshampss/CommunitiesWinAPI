@@ -20,9 +20,8 @@
        * latitude: decimal/null
        * longitude:decimal/null
    Note: if you want to update the existing one, just pass phone number and updated parameters
-
-* [Vendor corona precautions update]
-  ### Usage
+ 
+ ### Vendor corona precautions update Usage
     https://localhost:44355/api/VendorDetails/UpdateVendorCorona
     Type: POST
     Parameters: 
@@ -33,8 +32,8 @@
        * isSocialDistanced: bool/null     
    Note: if you want to update the existing one, just pass phone number and updated parameters
     
-* [Vendor product prices update]
-  ### Usage
+
+ ### Vendor product prices update Usage
     https://localhost:44355/api/VendorDetails/VendorProductPrices
     Type: POST
     Parameters: 
@@ -45,8 +44,8 @@
        * units: string/null     
    Note: if you want to update the existing one, just pass phone number and updated parameters
    
- * [Vendor category update]
-  ### Usage
+ 
+  ### Vendor category update Usage
     https://localhost:44355/api/VendorDetails/VendorCategory
     Type: POST
     Parameters: 
