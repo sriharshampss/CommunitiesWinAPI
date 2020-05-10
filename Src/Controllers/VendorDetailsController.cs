@@ -256,6 +256,28 @@ namespace CommunitiesWinApi.Controllers
             }
             _context.SaveChanges();
             return Ok();
-        }        
-    }
-}
+        }
+        /// <summary>
+        /// Invoke the method based on the URL below:
+        /// https://localhost:44355/api/VendorDetails/ProductsList
+        /// </summary>
+        /// <param name="phoneNumber"></param>
+        /// <returns></returns>
+        [HttpGet("ProductsList", Name = "ProductsList")]
+        public JsonResult ProductsList()
+        {
+            var products = _context.Product.ToList();
+            List<object> productsData = new List<object>();
+            foreach (Product item in products)
+            {
+                productsData.Add(new
+                {
+                    ProductName = item.ProductName,
+                    Category = "",
+                    ImageUrl = ""
+                });
+            }
+            return new JsonResult(productsData);
+        }
+    }    
+ }

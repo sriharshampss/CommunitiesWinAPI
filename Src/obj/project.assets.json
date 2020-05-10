@@ -7433,11 +7433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\CommunitiesWinApi\\CommunitiesWinApi.csproj",
+      "projectUniqueName": "D:\\Projects\\CommunitiesWinAPI\\Src\\CommunitiesWinApi.csproj",
       "projectName": "CommunitiesWinApi",
-      "projectPath": "D:\\Projects\\CommunitiesWinApi\\CommunitiesWinApi.csproj",
+      "projectPath": "D:\\Projects\\CommunitiesWinAPI\\Src\\CommunitiesWinApi.csproj",
       "packagesPath": "C:\\Users\\sriha\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\CommunitiesWinApi\\obj\\",
+      "outputPath": "D:\\Projects\\CommunitiesWinAPI\\Src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sriha\\AppData\\Roaming\\NuGet\\NuGet.Config",

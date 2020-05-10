@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C/8XmEfJOD4nnEvadfJfF3uVzMc7aFLkvwXcG/JDUuDya09CWuWySQeGuXUgPOQQBS/0EGA0qQgHbXku8+Lh/w==",
+  "dgSpecHash": "G/J5G+NUTC9lZwbOUvGnFf5I/4HmkupoQInaZZyGtWo2gYOslnPFAaeSYU09YQGn5fUUaO1pw0S6VVi5qA+7bw==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\CommunitiesWinApi\\CommunitiesWinApi.csproj",
+  "projectFilePath": "D:\\Projects\\CommunitiesWinAPI\\Src\\CommunitiesWinApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sriha\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\sriha\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
